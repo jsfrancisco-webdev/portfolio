@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Steven Francisco</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta property="og:image" content="images/thumbnail-img.png" data-addsearch="no_crop">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body id="lightson-effect">
+    <div class="mobile-nav">
+        <div class="burger-menu" >
+           <i class="fa fa-bars" id="burger-menu-toggle"></i>
+            
+        </div>
+        <ul id="mobile-nav-menu" class="mobile-nav-links">
+            <li class="nav"><a href="#hero">Home</a></li>
+            <li class="nav"><a href="#about">About</a></li>
+            <li class="nav"><a href="#services">My services</a></li>
+            <li class="nav"><a href="#experience">My Work</a></li>
+            <li class="nav"><a href="#contact">Contact</a></li>
+            <li class="nav" onclick="mobilelightson()" id="mobile-torch-off"><img src="images/bulb-on.png"  loading="lazy"></li>
+            <li class="nav" onclick="mobilelightsoff()" id="mobile-torch-on"><img src="images/bulb-off.png"  loading="lazy"></li>
+        </ul>
+    </div>
+    <div class="navigation">
+        <ul id="navbar">
+            <li class="nav"><a href="#hero">Home</a></li>
+            <li class="nav"><a href="#about">About</a></li>
+            <li class="nav"><a href="#services">My services</a></li>
+            <li class="nav"><a href="#experience">My Work</a></li>
+            <li class="nav"><a href="#contact">Contact</a></li>
+            <li class="nav" onclick="lightson()" id="torch-off"><img src="images/bulb-on.png"  loading="lazy"></li>
+            <li class="nav" onclick="lightsoff()" id="torch-on"><img src="images/bulb-off.png"  loading="lazy"></li>
+        </ul>
+    </div>
+
+    <div id="hero" class="hero">
+        <h2 class="change-color">Hi, I'm</h2>
+        <h1 class="change-color">John Steven Francisco</h1>
+        <h2>a front-end Web Developer</h2>
+        <div class="torch-effect" id="torch-effect"></div> 
+    
+    </div>
+
+    <div id="about" class="about-me">
+        <div class="about-text-bg"><span>ABOUT</span></div>
+        <div class="custom-container">
+            <div class="two-column-box">
+                
+                <div class="box">
+                    <h2>Hi, I’m Steven. <br>Nice to meet you.</h2>
+                    <p>I'm a Front-end Web Developer who can convert mock-up designs in any format into interactive web pages using HTML, CSS, and Javascript. I love interactive and minimalist design with a mission to present web design possibilities.</p>
+                    
+                </div>
+                <div class="box-with-img">
+                    <img src="images/about-img-colored.png" alt="Steven Francisco"  loading="lazy">
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+    <div id="services" class="my-services">
+        <div class="services-text-bg"><span>SERVICES</span></div>
+        <div class="custom-container">
+            <div class="heading-center">
+                <h2>My Services</h2>
+            </div>
+           <div class="services-content">
+                <div class="services-box">
+                    <h3>Web design</h3>
+                    <p>I can give my client satisfaction by building their desired website with color preference, branding, and interactive and minimalist design.</p>
+                </div>
+                <div class="services-box">
+                    <h3>Responsive</h3>
+                    <p>Specialized in designing for all the latest devices. Utilizing frameworks such as bootstrap but I prefer to make my layouts using CSS flexbox.</p>
+                </div>
+                <div class="services-box">
+                    <h3>CMS developer</h3>
+                    <p>Experienced in developing static and dynamic websites using CMS like WordPress, Wix, Squarespace, etc.</p>
+                </div>
+           </div>
+        </div>
+    </div>
+
+    <div id="experience" class="my-experience">
+        <div class="experence-text-bg"><span>EXPERIENCE</span></div>
+        <div class="custom-container">
+            <div class="heading-center">
+                <h2>My Experience</h2>
+            </div>
+            <button class="accordion"><h3>AffinityX</h3></button>
+            <div class="panel">
+              <h3>full - tme</h3>
+              <h3>Associate Web Developer</h3>
+              <h3>April 2021 - Present</h3>
+              <h3>Remote</h3>
+              <p>Here at AffinityX, I was able to process websites from clients every day since it is a BPO Company, and websites were made and maintained regularly. I had good training using multiple CMS here like WordPress, Wix, etc.</p>
+              <div class="tools-use">
+                <div class="tool-box"><p>HTML</p></div>
+                <div class="tool-box"><p>CSS</p></div>
+                <div class="tool-box"><p>bootstrap</p></div>
+                <div class="tool-box"><p>Javascript</p></div>
+                <div class="tool-box"><p>Jquery</p></div>
+                <div class="tool-box"><p>Photoshop</p></div>
+                <div class="tool-box"><p>Wordpress</p></div>
+                <div class="tool-box"><p>WIX</p></div>
+              </div>
+            </div>
+            
+            <button class="accordion"><h3>Empowervirtual</h3></button>
+            <div class="panel">
+              <h3>Part - tme</h3>
+              <h3>Front-end Web Developer</h3>
+              <h3>December 2021 - July 2022</h3>
+              <h3>Remote</h3>
+              <p>EmpowerVirtual is a startup company outsourcing freelancers from the global market, launched on July 2022. I worked here as a part-timer front-end developer during my weekdays and after work hours.</p>
+              <div class="tools-use">
+                <div class="tool-box"><p>HTML</p></div>
+                <div class="tool-box"><p>CSS</p></div>
+                <div class="tool-box"><p>bootstrap</p></div>
+                <div class="tool-box"><p>Javascript</p></div>
+                <div class="tool-box"><p>Jquery</p></div>
+                <div class="tool-box"><p>Photoshop</p></div>
+                <div class="tool-box"><p>PHP</p></div>
+                <div class="tool-box"><p>Git</p></div>
+              </div>
+            </div>
+            
+           
+        </div>
+    </div>
+
+
+    <div id="contact" class="contact-me">
+        <div class="contact-text-bg"><span>CONTACT</span></div>
+        <div class="custom-container">
+            <div class="heading-center">
+                <h2>CONTACT</h2>
+            </div>
+            <div class="two-column-box">
+                
+                <div class="box contact-box">
+                    <h2>Reach out on</h2>
+                    <div class="contact-icon-with-txt">
+                        <img src="images/facebook.png" alt="facebook">
+                        <a href="https://www.facebook.com/stevenigop" target="_blank">/stevenigop</a>
+                    </div>
+                    <div class="contact-icon-with-txt">
+                        <img src="images/linkedin.png" alt="linked in">
+                       <a href="https://www.linkedin.com/in/stevenigop/" target="_blank">/in/stevenigop</a>
+                    </div>
+                    <div class="contact-icon-with-txt">
+                        <img src="images/gmail.png" alt="gmail">
+                       <a href="mailto:jsfrancisco.webdev@gmail.com">jsfrancisco.webdev@gmail.com</a>
+                    </div>
+                    
+                </div>
+                <div class="box-with-form">
+                    <div class="contact-form">
+                        <form action="https://formsubmit.co/el/xiyuce" method="POST">
+                        <input type="text" name="name"  placeholder="Your name" required>
+                        <input type="email" name="mail" placeholder="Your Email" required>
+                        <textarea type="text" name="message" rows="4" placeholder="Your message" required></textarea>
+                        <button type="submit" name="submit">Submit</button>
+                        </form>
+                    </div>
+                  
+                </div>
+            </div>
+            
+           
+        </div>
+    </div>
+    <div class="footer"><p>© 2022 Steven Francisco</p></div>
+    <div class="cursor"></div>
+   
+    
+   <script type="text/javascript">
+       var pos = document.documentElement;
+       pos.addEventListener('mousemove', e => {
+        pos.style.setProperty('--x',e.clientX + 'px')
+        pos.style.setProperty('--y',e.clientY + 'px')
+       }) 
+
+       const cursor = document.querySelector('.cursor');
+       document.addEventListener('mousemove', e => {
+        cursor.setAttribute("style", "top: " + e.pageY+"px; left: "+(e.pageX - 7)+"px;")
+       })
+
+       document.addEventListener('click', () =>{
+         cursor.classList.add("cursor-click-effet");
+
+         setTimeout(() => {
+            cursor.classList.remove("cursor-click-effet")
+         }, 500);
+       })
+
+       function lightson(){
+        document.body.style.backgroundColor = "#f5f5f5";
+        document.body.style.backgroundImage = "none";
+        document.getElementById("torch-off").style.display = "none";
+        document.getElementById("torch-on").style.display = "block";
+        document.getElementById("torch-effect").style.display = "none";
+        var allH2Elements = document.querySelectorAll("h2 ,h1, h3 , p , span, input, textarea, button");
+            allH2Elements.forEach(function(h2Element) {
+                h2Element.style.color="#000000";
+                
+        });
+        var allatag = document.querySelectorAll("li, a");
+            allatag.forEach(function(atagelement) {
+                atagelement.style.color="#000000";
+                
+                
+        });
+        
+
+       }
+
+       function lightsoff(){
+        document.body.style.backgroundColor = "#000000";
+        document.body.style.backgroundImage = "url('https://www.transparenttextures.com/patterns/black-orchid.png')";
+        document.getElementById("torch-off").style.display = "block";
+        document.getElementById("torch-on").style.display = "none";
+        document.getElementById("torch-effect").style.display = "block";
+        var allH2Elements = document.querySelectorAll("h2 ,h1, h3 , p , a , span ,input, textarea, button");
+            allH2Elements.forEach(function(h2Element) {
+                h2Element.style.color="#ffffff";
+                
+        });
+
+        var allatag = document.querySelectorAll("li, a");
+            allatag.forEach(function(atagelement) {
+                atagelement.style.color="#ffffff";
+                
+        });
+
+       }
+
+       function mobilelightson(){
+        document.body.style.backgroundColor = "#f5f5f5";
+        document.body.style.backgroundImage = "none";
+        document.getElementById("mobile-torch-off").style.display = "none";
+        document.getElementById("mobile-torch-on").style.display = "block";
+        document.getElementById("torch-effect").style.display = "none";
+        var allH2Elements = document.querySelectorAll("h2 ,h1, h3 , p , span, input, textarea, button");
+            allH2Elements.forEach(function(h2Element) {
+                h2Element.style.color="#000000";
+                
+        });
+        var allatagMobile = document.querySelectorAll("li, a");
+            allatag.forEach(function(atagelementMobile) {
+                atagelementMobile.style.color="#000000";
+                
+                
+        });
+        
+
+       }
+
+       function mobilelightsoff(){
+        document.body.style.backgroundColor = "#000000";
+        document.body.style.backgroundImage = "url('https://www.transparenttextures.com/patterns/black-orchid.png')";
+        document.getElementById("mobile-torch-off").style.display = "block";
+        document.getElementById("mobile-torch-on").style.display = "none";
+        document.getElementById("torch-effect").style.display = "block";
+        var allH2Elements = document.querySelectorAll("h2 ,h1, h3 , p , a , span ,input, textarea, button");
+            allH2Elements.forEach(function(h2Element) {
+                h2Element.style.color="#ffffff";
+                
+        });
+
+        var allatagMobile = document.querySelectorAll("li, a");
+        allatagMobile.forEach(function(atagelementMobile) {
+            atagelementMobile.style.color="#ffffff";
+                
+        });
+
+       }
+
+       var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+            panel.style.display = "none";
+            } else {
+            panel.style.display = "block";
+            }
+        });
+        }
+
+        $( "#burger-menu-toggle" ).click(function() {
+            $( "#mobile-nav-menu" ).toggle("slow");
+        });
+
+
+   </script>
+</body>
+</html>
